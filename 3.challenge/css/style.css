@@ -1,0 +1,27 @@
+header {
+  font-family: 'Hiragino Sans';
+  color: #333;
+}
+section {
+  background-color: #f7f7f7;
+  list-style: none;
+}
+
+section:nth-child(odd) {
+  background-color: #ccc;
+  color: #f7f7f7;
+}
+
+:hover {
+  opacity: 0.5;
+  border: 1px solid black;
+  color: red;
+}
+link {
+  background-color: #4c4c4c;
+  color: #fff;
+}
+footer {
+  background-color: #333;
+  color: #797979;
+}
